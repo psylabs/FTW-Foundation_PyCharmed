@@ -35,20 +35,39 @@ body{
     padding-top: 10px;
 }
 
-#nav li {
+#bottom_nav li {
 
     display: inline;
     padding-right:30px;
 }
 
-#nav .columns{
+#bottom_nav .columns{
     padding-top: 10px;
 }
 
-#nav a{
+#bottom_nav a{
     color: maroon;
 }
 #center{
     text-align: center;
 
+}
+
+#side_nav{
+    margin-top: 50px;
+}
+
+#side_nav dt{
+    border-bottom:1px solid white;
+    /*border-right:1px solid black;*/
+    display:block;
+    padding: 5px 10px 5px 0px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#side_nav a{
+    color: brown;
+    font-family:Verdana;
+    font-weight: bold;
 }
